@@ -26,22 +26,24 @@ export default function TabLayout() {
           borderTopColor: "#00ff88",
           borderTopWidth: 1,
 
-          left: 15,
-          right: 15,
+          left: 12,
+          right: 12,
 
-          bottom: 25,
+          bottom: 15,
 
-          height: 72,
+          height: 95,
 
-          borderRadius: 20,
+          borderRadius: 24,
 
-          paddingTop: 8,
-          paddingBottom: 8,
+          paddingTop: 12,
+          paddingBottom: 15,
+
+          elevation: 12,
         },
 
         tabBarLabelStyle: {
-          fontSize: 12,
-          marginBottom: 2,
+          fontSize: 14,
+          marginBottom: 5,
         },
       }}
     >
@@ -50,10 +52,10 @@ export default function TabLayout() {
         options={{
           title: "Início",
 
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: ({ color }) => (
             <Ionicons
               name="home"
-              size={size}
+              size={28}
               color={color}
             />
           ),
@@ -65,10 +67,10 @@ export default function TabLayout() {
         options={{
           title: "Consulta",
 
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: ({ color }) => (
             <Ionicons
               name="call"
-              size={size}
+              size={28}
               color={color}
             />
           ),
