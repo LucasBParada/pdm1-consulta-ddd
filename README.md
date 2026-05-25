@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# pdmi-consulta-ddd
+Repositório voltado para criação de uma interface interativa com foco em consultas de DDD por todo Brasil na matéria PDMI
+>>>>>>> 6c7ac5de63133d7b5a2a8e1f09ac8969bb9b3038
